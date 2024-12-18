@@ -65,21 +65,6 @@ The system consists of the following key modules:
 
 ---
 
-## 💾 **File Structure**
-```
-📁 FPGA-Home-Automation-System
-├── 📄 README.md (This file)
-├── 📄 design.sv (Main Verilog design file)
-├── 📄 testbench.sv (Testbench to verify system logic)
-├── 📄 clock_divisor.sv (Clock divider module)
-├── 📄 pwm_generator.sv (PWM module for fan speed control)
-├── 📄 entry_detection.sv (Entry detection state machine logic)
-├── 📄 fan_controller.sv (Fan speed controller logic)
-├── 📄 lamp_control.sv (Lamp state machine logic)
-├── 📄 display_controller.sv (7-segment display logic for people count)
-└── 📄 waveform.vcd (Waveform file to visualize simulation results)
-```
-
 ---
 
 ## 🛠️ **Hardware Requirements**
