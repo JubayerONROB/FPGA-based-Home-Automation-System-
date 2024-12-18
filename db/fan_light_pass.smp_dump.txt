@@ -1,0 +1,12 @@
+
+State Machine - |fan_light_pass|exit_state
+Name exit_state.00 exit_state.10 exit_state.01 
+exit_state.00 0 0 0 
+exit_state.01 1 0 1 
+exit_state.10 1 1 0 
+
+State Machine - |fan_light_pass|entry_state
+Name entry_state.00 entry_state.10 entry_state.01 
+entry_state.00 0 0 0 
+entry_state.01 1 0 1 
+entry_state.10 1 1 0 
